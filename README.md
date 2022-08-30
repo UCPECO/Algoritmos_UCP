@@ -2,5 +2,7 @@
 
 <p align="justify">En UCP somos un grupo de jóvenes con un gran compromiso por el cuidado medioambiental. Nuestras actividades surgen desde el 2000, ofreciendo servicios de manejo y aprovechamiento de residuos mayormente electrónicos de manera eficiente, segura y limpia, garantizando su un proceso completo de reciclaje. </p> <br>
 
-<strong>a</strong>
-<p align="justify">Debdiso a las condiciones de confinamiento causadas por el virus COVID-19, nuestras actividades . </p> <br>
+<p align="justify">Actualmente, nuestras actividades se han extendido, impulsando </p> <br>
+
+<strong>¿Cómo surgen estas actividades adicionales al reciclaje?</strong>
+<p align="justify">Debdido a las condiciones de confinamiento causadas por el virus COVID-19, nuestras actividades se suspendierion temporalmente durante dos años. Esto significó un reto para nuestro objetivo principal, pero nuestro empeño nos impulsó a adaptarnos.   </p> <br>
