@@ -1,4 +1,4 @@
-<h1 align="justify">Universitarios por el Cuidado del Planeta </h1>
+<h1 align="center">Universitarios por el Cuidado del Planeta </h1>
 
 <p align="justify">En UCP somos un grupo de jóvenes con un gran compromiso por el cuidado medioambiental. Nuestras actividades surgen desde el 2000, ofreciendo servicios de manejo y aprovechamiento de residuos mayormente electrónicos de manera eficiente, segura y limpia, garantizando su un proceso completo de reciclaje. </p>
 <p align="justify">Actualmente, nuestras actividades se han extendido, aprovechando las tecnologías y el uso de las redes sociales, con el objetivo de tener un mayor alcance en los jóvenes para incentivar el respeto por el ambiente de una manera atractiva y divertida. </p>
