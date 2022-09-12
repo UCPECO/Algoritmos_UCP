@@ -6,4 +6,4 @@
 <p align="justify">La intención de crear un repositorio en GitHub es ofrecer un espacio virtual en donde los interesados en los trabajos aquí contenidos tengan total acceso, creando oportunidades de aprendizaje en el ámbito de la programación. Los algoritmos aquí alojados son propiedad de UCP, desarrollado por sus jóvenes integrantes con interés en compartir sus concocimientos en programación a la comunidad estudiantil.</p>
 
 
-<p style="text-align:center;"><img src="nobg_logo.png"></p>
+<p align="center"><img src="nobg_logo.png"></p>
