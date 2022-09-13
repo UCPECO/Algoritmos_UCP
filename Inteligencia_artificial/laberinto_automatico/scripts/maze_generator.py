@@ -54,9 +54,9 @@ class Pygame_utils:
                     self.end_rect=pygame.Rect(x, y, width, width)
                 elif col == "R":
                     if (self.counter % 2) == 0:
-                        self.bot_rect_list.append([pygame.transform.scale(pygame.image.load("benderdos.png"), (width, width)),(x,y)])
+                        self.bot_rect_list.append([pygame.transform.scale(pygame.image.load("../images/benderdos.png"), (width, width)),(x,y)])
                     else:
-                        self.bot_rect_list.append([pygame.transform.scale(pygame.image.load("benderuno.png"), (width, width)), (x,y)])
+                        self.bot_rect_list.append([pygame.transform.scale(pygame.image.load("../images/benderuno.png"), (width, width)), (x,y)])
                     self.counter+=1
                 x += width                
             y += width
@@ -89,7 +89,7 @@ class Pygame_utils:
         width=self.y*0.60
         font = pygame.font.SysFont(None, 60)
         textobj = font.render("¡Completado!", 1, (255,255,255))
-        bender=pygame.transform.scale(pygame.image.load("bender_final.png"), (width, width))
+        bender=pygame.transform.scale(pygame.image.load("../images/bender_final.png"), (width, width))
         textrect = textobj.get_rect()
         textrect.center = ((self.x/2), (self.y/2-(width/2)*1.2))
         self.screen.blit(textobj, textrect)

@@ -88,7 +88,7 @@ def menu():
    
  
         screen.fill((0,0,0))
-        ucp_logo=pygame.transform.scale(pygame.image.load("nobg_logo.png"), (half_y*0.6, half_y*0.6))
+        ucp_logo=pygame.transform.scale(pygame.image.load("../images/nobg_logo.png"), (half_y*0.6, half_y*0.6))
         screen.blit(ucp_logo, (((half_x-half_y*0.3), (half_y+half_y*0.3))))
 
         mx, my = pygame.mouse.get_pos()
