@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <p align="center">< img src="../../nobg_logo.png" alt="UCP" width="250"></p>
+  <p align="center"><img src="../../nobg_logo.png" alt="UCP" width="250"></p>
   <br>
   Universitarios por el Cuidado del Planeta
   <br>
