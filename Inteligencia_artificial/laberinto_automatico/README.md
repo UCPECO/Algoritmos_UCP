@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a align="center">< img src="../../nobg_logo.png" alt="UCP" width="250"></a>
+  <p align="center">< img src="../../nobg_logo.png" alt="UCP" width="250"></p>
   <br>
   Universitarios por el Cuidado del Planeta
   <br>
@@ -17,7 +17,7 @@
 <br>
 
 <h3 id="sobre-proyecto">Sobre el proyecto </h3>
-Este es un proyecto realizado por UCP. 
+Este es un proyecto realizado por alumnos de UCP
 
 
 <h3 id="Requisitos">Requisitos </h3>
