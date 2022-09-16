@@ -37,7 +37,7 @@
   <li><p align="justify">start_screen: Aquí se estructuran los menús, el de inicio y el de selección de laberintos.</p></li>
 </ul>
 
-<p align="center"><img src="images/start_screen.png" alt="UCP" width=80% height=70%></p>
+<p align="center"><img src="images/start_screen.png" alt="UCP" width=80% height=70%><figcaption>Menú principal</figcaption></p>
 
 
 
