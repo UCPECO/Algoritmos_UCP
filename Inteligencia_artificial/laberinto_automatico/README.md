@@ -36,14 +36,21 @@
   <li><p align="justify">maze_generator: Define gráficamente los laberintos y así como el resultado visual de la trayectoria que sigue el robot para solucionar el laberinto. </p></li>
   <li><p align="justify">start_screen: Aquí se estructuran los menús, el de inicio y el de selección de laberintos.</p></li>
 </ul>
+<br>
 
-<p align="center"><img src="images/start_screen.png" alt="UCP" width=80% height=70%><figcaption>Menú principal</figcaption></p>
-
-
+<p align="center"><img src="images/start_screen.png" alt="UCP" width="600"></figcaption></p>
+<p align="center">Menú principal</p>
 
 <h3 id="Requisitos">Requisitos </h3>
+Es necesario tener <a href="https://www.python.org/downloads/">Python 3</a> instalado en el sistema operativo, así como <a href="https://www.pygame.org/news">Pygame</a> dentro de las libreías descargadas. Para instalar Pygame es posible hacerlo a través del gestor de descargas pip:
+<br>
+
+```
+pip install pygame
+```
 
 <h3 id="Instalación">Instalación </h3>
+
 
 <h3 id="Funcionamiento">¿Cómo funciona el código? </h3>
 
