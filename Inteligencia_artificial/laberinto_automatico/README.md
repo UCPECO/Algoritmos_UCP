@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h2 align="center">Implementación de algoritmo DFS para resolver laberintos discretos</h2>
+<h2 align="center">Implementación de algoritmo BFS para resolver laberintos discretos</h2>
 <br>
 
 
@@ -21,7 +21,7 @@
 <br>
 
 <h3 id="sobre-proyecto">Sobre el proyecto </h3>
-<p align="justify">Este proyecto reúne distintos conocimientos de programación para implmentar un algoritmo de inteligencia artificial denominado DFS (Depth First Search) para resolver un laberinto a través de desplazamientos discretos (arriba, abajo, izquierda, derecha) sobre un laberinto previamente definido.</p>
+<p align="justify">Este proyecto reúne distintos conocimientos de programación para implmentar un algoritmo de inteligencia artificial denominado BFS (Breadth First Search) para resolver un laberinto a través de desplazamientos discretos (arriba, abajo, izquierda, derecha) sobre un laberinto previamente definido.</p>
 
 <p align="justify">Para lograr una visualización del resultado de la solución de los laberintos, la librería pygame es empleada, ya que incluye funcionalidades para renderizar, incluir sonidos, crear ventanas, entre muchas más, con la intención de crear un entorno gráfico que represente la solución de los laberintos.</p>
 
@@ -30,7 +30,7 @@
 <p align="justify">El lenguaje con el que se construyeron cada uno de los ejecutables es Python y está estructurado en 5 módulos distintos:</p>
 
 <ul>
-  <li><p align="justify">laberinto_automatico: Donde está contenida la lógica que implementa un algoritmo de tipo DFS.</p></li>
+  <li><p align="justify">laberinto_automatico: Donde está contenida la lógica que implementa un algoritmo de tipo BFS.</p></li>
   <li><p align="justify">laberintos: Aquí están definidos los laberintos en un arreglo, representado con espacios (' ') para pasillos, numeral ('#') para paredes, R para el inicio y X para la meta.</p></li>
   <li><p align="justify">main: En este módulo es donde se define toda la ejecución de manera conjunta de los demás módulos.</p></li>
   <li><p align="justify">maze_generator: Define gráficamente los laberintos y así como el resultado visual de la trayectoria que sigue el robot para solucionar el laberinto. </p></li>
@@ -50,13 +50,31 @@ pip install pygame
 ```
 
 <h3 id="Instalación">Instalación </h3>
-
+<p align="justify">Este repositorio tiene más de un proyecto contenidos en la <a href="https://github.com/UCPECO/Algoritmos_UCP">la página inicial</a>, si solo se quiere instalar este algoritmo, abra una terminal (debe tener <a href="https://git-scm.com/">git</a> instalado)  y ejecute los siguientes comandos: </p>
+```
+mkdir algoritmo_bfs && cd algoritmo_bfs
+git init
+git remote add origin https://github.com/UCPECO/Algoritmos_UCP.git
+git config core.sparseCheckout true
+echo "Inteligencia_artificial/laberinto_automatico/*">> .git/info/sparse-checkout
+git pull origin master
+```
 
 <h3 id="Funcionamiento">¿Cómo funciona el código? </h3>
+Los laberintos que se plasman son laberintos discretos, por lo tanto, los movimientos son también discretos. La idea es que el robot pueda llegar a la meta recorriendo todos los caminos, pasando primero por los más cercanos para encontrar el camino más corto. Para esto, es posible ocupar un algoritmo de búsqueda llamado BFS. Para entenderlo, primero debemos entender a la estructura de datos "árbol".
 
 <h4 id="Arboles">Los árboles en programación </h4>
+<p align="justify">Los árboles son un tipo de estructura de datos muy útil. Estos permiten almacenar la información en nodos establecidos con una jerarquía, es decir, los que se encuentren más arriba (más cercanos al origen) tienen un nivel más bajo. Existe un nodo origen que es único, llamado también nodo "raíz" y cada uno de los nodos derivados son nodos "rama" que son hijos un nodo del cual parten, sus nodos padres.</p>
 
-<h4 id="DFS">El algoritmo DFS </h4>
+<p align="center"><img src="images/arbol.png" alt="UCP" width=600></p>
+
+
+<h4 id="BFS">El algoritmo BFS </h4>
+<p align="justify">Aprovechando la estructura de datos de un árbol, es posible hacer distintas operaciones sobre él, como el recorrido que se hace sobre la estructura del árbol para analizar cada uno de los nodos. Una de las formas de recorrer el árbol es a través de un algoritmo BFS (Breadth First Search) que hace un recorrido primero por los nodos más cercanos a la raíz, es decir, recorre todos los nodos que hay en cada nivel.</p>
+
+<h4 id="BFS">Aplicación del algoritmo BFS en la resolución de laberintos</h4>
+
+
 
 <h3 id="Autores">Autores</h3>
 
