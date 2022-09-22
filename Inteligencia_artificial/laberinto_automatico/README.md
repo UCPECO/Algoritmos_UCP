@@ -67,14 +67,20 @@ Los laberintos que se plasman son laberintos discretos, por lo tanto, los movimi
 <h4 id="Arboles">Los árboles en programación </h4>
 <p align="justify">Los árboles son un tipo de estructura de datos muy útil. Estos permiten almacenar la información en nodos establecidos con una jerarquía, es decir, los que se encuentren más arriba (más cercanos al origen) tienen un nivel más bajo. Existe un nodo origen que es único, llamado también nodo "raíz" y cada uno de los nodos derivados son nodos "rama" que son hijos un nodo del cual parten, sus nodos padres.</p>
 
-<p align="center"><img src="images/arbol.png" alt="UCP" width=600></p>
+<p align="center"><p align="center"><img src="images/tree_structure.gif" alt="UCP" width="250"></p></p>
 
 
 <h4 id="BFS">El algoritmo BFS </h4>
 <p align="justify">Aprovechando la estructura de datos de un árbol, es posible hacer distintas operaciones sobre él, como el recorrido que se hace sobre la estructura del árbol para analizar cada uno de los nodos. Una de las formas de recorrer el árbol es a través de un algoritmo BFS (Breadth First Search) que hace un recorrido primero por los nodos más cercanos a la raíz, es decir, recorre todos los nodos que hay en cada nivel.</p>
 
-<h4 id="BFS">Aplicación del algoritmo BFS en la resolución de laberintos</h4>
+<p align="center"><p align="center"><img src="images/BFS.gif" alt="UCP" width="250"></p></p>
 
+<h4 id="BFS">Aplicación del algoritmo BFS en la resolución de laberintos</h4>
+El algoritmo DFS es muy útil para esta aplicación. Al tratarse de un laberinto discreto, es posible almacenar cada una de las posiciones de este laberinto en una estructura de datos tipo árbol, representando el inicio con el nodo raíz. Los siguientes nodos están organizados en niveles, el nivel representa el número de movimientos necesarios para llegar a ese punto, así almacenando una estructura completa con cada nodo 
+
+
+
+<p align="center"><p align="center"><img src="images/bot_moving.gif" alt="UCP" width="250"></p></p>
 
 
 <h3 id="Autores">Autores</h3>
