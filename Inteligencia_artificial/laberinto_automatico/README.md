@@ -51,6 +51,7 @@ pip install pygame
 
 <h3 id="Instalación">Instalación </h3>
 <p align="justify">Este repositorio tiene más de un proyecto contenidos en la <a href="https://github.com/UCPECO/Algoritmos_UCP">la página inicial</a>, si solo se quiere instalar este algoritmo, abra una terminal (debe tener <a href="https://git-scm.com/">git</a> instalado)  y ejecute los siguientes comandos: </p>
+
 ```
 mkdir algoritmo_bfs && cd algoritmo_bfs
 git init
