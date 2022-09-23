@@ -95,6 +95,15 @@ git pull origin master
 
 <h3 id="Autores">Autores</h3>
 
+<p align="center"><strong>Luis Jonguitud </strong></p>
+<p align="center">Estudiante de Ingeniería en Energías Renovables</p>
+<p align="center">Creación de algoritmo</p>
+
+<p align="center"><strong>Joel Lugo</strong></p>
+<p align="center">Estudiante de ingeniería mecatrónica</p>
+<p align="center">Edición y renderizado de video para TikTok</p>
+
+
 
 
 
