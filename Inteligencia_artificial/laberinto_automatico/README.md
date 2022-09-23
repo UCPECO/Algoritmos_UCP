@@ -66,7 +66,7 @@ mkdir algoritmo_bfs && cd algoritmo_bfs
 git init
 git remote add origin https://github.com/UCPECO/Algoritmos_UCP.git
 git config core.sparseCheckout true
-echo "Inteligencia_artificial/laberinto_automatico/*">> .git/info/sparse-checkout
+echo "Inteligencia_artificial/laberinto_automatico/scripts/*">> .git/info/sparse-checkout
 git pull origin master
 ```
 
