@@ -42,7 +42,7 @@
 <p align="center">Menú principal</p>
 
 <h3 id="Requisitos">Requisitos </h3>
-Es necesario tener <a href="https://www.python.org/downloads/">Python 3</a> instalado en el sistema operativo, así como <a href="https://www.pygame.org/news">Pygame</a> dentro de las libreías descargadas. Para instalar Pygame es posible hacerlo a través del gestor de descargas pip:
+<p align="justify">Es necesario tener <a href="https://www.python.org/downloads/">Python 3</a> instalado en el sistema operativo, así como <a href="https://www.pygame.org/news">Pygame</a> dentro de las libreías descargadas. Para instalar Pygame es posible hacerlo a través del gestor de descargas pip:</p>
 <br>
 
 ```
@@ -62,7 +62,7 @@ git pull origin master
 ```
 
 <h3 id="Funcionamiento">¿Cómo funciona el código? </h3>
-Los laberintos que se plasman son laberintos discretos, por lo tanto, los movimientos son también discretos. La idea es que el robot pueda llegar a la meta recorriendo todos los caminos, pasando primero por los más cercanos para encontrar el camino más corto. Para esto, es posible ocupar un algoritmo de búsqueda llamado BFS. Para entenderlo, primero debemos entender a la estructura de datos "árbol".
+<p align="justify">Los laberintos que se plasman son laberintos discretos, por lo tanto, los movimientos son también discretos. La idea es que el robot pueda llegar a la meta recorriendo todos los caminos, pasando primero por los más cercanos para encontrar el camino más corto. Para esto, es posible ocupar un algoritmo de búsqueda llamado BFS. Para entenderlo, primero debemos entender a la estructura de datos "árbol".</p>
 
 <h4 id="Arboles">Los árboles en programación </h4>
 <p align="justify">Los árboles son un tipo de estructura de datos muy útil. Estos permiten almacenar la información en nodos establecidos con una jerarquía, es decir, los que se encuentren más arriba (más cercanos al origen) tienen un nivel más bajo. Existe un nodo origen que es único, llamado también nodo "raíz" y cada uno de los nodos derivados son nodos "rama" que son hijos un nodo del cual parten, sus nodos padres.</p>
@@ -76,11 +76,12 @@ Los laberintos que se plasman son laberintos discretos, por lo tanto, los movimi
 <p align="center"><p align="center"><img src="images/BFS.gif" alt="UCP" width="250"></p></p>
 
 <h4 id="BFS">Aplicación del algoritmo BFS en la resolución de laberintos</h4>
-El algoritmo DFS es muy útil para esta aplicación. Al tratarse de un laberinto discreto, es posible almacenar cada una de las posiciones de este laberinto en una estructura de datos tipo árbol, representando el inicio con el nodo raíz. Los siguientes nodos están organizados en niveles, el nivel representa el número de movimientos necesarios para llegar a ese punto, así almacenando una estructura completa con cada nodo 
+<p align="justify"> El algoritmo DFS es muy útil para esta aplicación. Al tratarse de un laberinto discreto, es posible almacenar cada una de las posiciones de este laberinto en una estructura de datos tipo árbol, representando el inicio con el nodo raíz. Los siguientes nodos están organizados en niveles, el nivel representa el número de movimientos necesarios para llegar a ese punto, así almacenando una estructura completa con cada nodo. </p>
 
+<p align="justify"></p>
 
+<p align="center"><img src="images/bot_moving.gif" alt="UCP" width="250"></p>
 
-<p align="center"><p align="center"><img src="images/bot_moving.gif" alt="UCP" width="250"></p></p>
 
 
 <h3 id="Autores">Autores</h3>
