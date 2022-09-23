@@ -14,9 +14,18 @@
 <ol>
   <li><a href="#sobre-proyecto">Sobre el proyecto</a>
   <ol>
-    <li><a href="#estructura-proyecto">Estructura del códido</a></li>
+    <li><a href="#estructura-proyecto">Estructura del proyecto</a></li>
   </ol>
+  <li><a href="#Requisitos">Requisitos</a>
+  <li><a href="#Instalación">Instalación</a>
+  <li><a href="#Funcionamiento">¿Cómo funciona el código?</a>
   </li>
+  <ol>
+    <li><a href="#Arboles">Los árboles en programación</a></li>
+    <li><a href="#BFS">El algoritmo BFS</a></li>
+    <li><a href="#Aplicación">Aplicación del algoritmo BFS en la resolución de laberintos</a></li>
+  </ol>
+  <li><a href="#Autores">Autores</a>
 </ol>
 <br>
 
@@ -38,7 +47,7 @@
 </ul>
 <br>
 
-<p align="center"><img src="images/start_screen.png" alt="UCP" width="600"></figcaption></p>
+<p align="center"><img src="images/start_screen.png" alt="UCP" width=75%></figcaption></p>
 <p align="center">Menú principal</p>
 
 <h3 id="Requisitos">Requisitos </h3>
@@ -67,20 +76,20 @@ git pull origin master
 <h4 id="Arboles">Los árboles en programación </h4>
 <p align="justify">Los árboles son un tipo de estructura de datos muy útil. Estos permiten almacenar la información en nodos establecidos con una jerarquía, es decir, los que se encuentren más arriba (más cercanos al origen) tienen un nivel más bajo. Existe un nodo origen que es único, llamado también nodo "raíz" y cada uno de los nodos derivados son nodos "rama" que son hijos un nodo del cual parten, sus nodos padres.</p>
 
-<p align="center"><p align="center"><img src="images/tree_structure.gif" alt="UCP" width="250"></p></p>
+<p align="center"><p align="center"><img src="images/tree_structure.gif" alt="UCP" width=20%></p></p>
 
 
 <h4 id="BFS">El algoritmo BFS </h4>
 <p align="justify">Aprovechando la estructura de datos de un árbol, es posible hacer distintas operaciones sobre él, como el recorrido que se hace sobre la estructura del árbol para analizar cada uno de los nodos. Una de las formas de recorrer el árbol es a través de un algoritmo BFS (Breadth First Search) que hace un recorrido primero por los nodos más cercanos a la raíz, es decir, recorre todos los nodos que hay en cada nivel.</p>
 
-<p align="center"><p align="center"><img src="images/BFS.gif" alt="UCP" width="250"></p></p>
+<p align="center"><p align="center"><img src="images/BFS.gif" alt="UCP" width=20%></p></p>
 
-<h4 id="BFS">Aplicación del algoritmo BFS en la resolución de laberintos</h4>
+<h4 id="Aplicación">Aplicación del algoritmo BFS en la resolución de laberintos</h4>
 <p align="justify"> El algoritmo DFS es muy útil para esta aplicación. Al tratarse de un laberinto discreto, es posible almacenar cada una de las posiciones de este laberinto en una estructura de datos tipo árbol, representando el inicio con el nodo raíz. Los siguientes nodos están organizados en niveles, el nivel representa el número de movimientos necesarios para llegar a ese punto, así almacenando una estructura completa con cada nodo. </p>
 
-<p align="justify"></p>
+<p align="justify">El algoritmo creará un árbol con todos los caminos recorridos. Cuando llegue a la meta, dejará de crear más nodos con los siguientes recorridos y muestra finalmente en una renderización hecha con Pygame todos los nodos que representan el camino que deberá recorrerse para llegar a la meta por el camino más corto.</p>
 
-<p align="center"><img src="images/bot_moving.gif" alt="UCP" width="250"></p>
+<p align="center"><img src="images/bot_moving.gif" alt="UCP" width=20%></p>
 
 
 
