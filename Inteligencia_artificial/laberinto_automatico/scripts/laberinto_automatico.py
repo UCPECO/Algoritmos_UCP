@@ -81,10 +81,10 @@ class Bot:
         recorridos = self.movimiento.obtener_recorrido()
         if self.encontrado == -1:
             pass
-            #print(-1)
+            print(-1)
         else:
             pasos = len(recorridos) + 2
-            #print(pasos)
+            print(pasos)
         for recorrido in recorridos:
             self.laberinto[recorrido[0]][recorrido[1]] = '*'           
         return (recorridos, self.inicio_bot) 
@@ -109,11 +109,12 @@ def main(laberinto):
     camino = Bot(laberinto)
     camino.movimientos()
     retorno=camino.insertar_recorrido()
-    #camino.imp_camino() 
+    camino.imp_camino() 
     return retorno
     
 
-
+if __name__ == '__main__':
+    main()
 
 
 
